@@ -1,4 +1,5 @@
 #include <iostream>
+#include <cmath>
 
 using namespace std;
 
@@ -22,7 +23,12 @@ int main() {
     cout << num2 + 9 << endl;
     cout << 10.0 / 3 << endl; // one has to be double to get decimal answer
 
-
+    //math functions (import at top)
+    cout << pow(2, 5) << endl; //2 to power 5
+    cout << sqrt(36) << endl; // square root of 36
+    cout << round(4.3) << endl; // rounds 4.3 to 4 or 4.7 to 5
+    cout << ceil(4.1) << endl; // always rounds up so 4.1 goes to 5
+    cout << floor(4.9) << endl; // always rounds down so 4.9 goes to 4
 
     return 0;
 }
