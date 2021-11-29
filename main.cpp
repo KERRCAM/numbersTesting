@@ -29,6 +29,8 @@ int main() {
     cout << round(4.3) << endl; // rounds 4.3 to 4 or 4.7 to 5
     cout << ceil(4.1) << endl; // always rounds up so 4.1 goes to 5
     cout << floor(4.9) << endl; // always rounds down so 4.9 goes to 4
+    cout << fmax(3, 10) << endl; // returns larger of two numbers
+    cout << fmin(3, 10) << endl; // returns smaller of two numbers
 
     return 0;
 }
